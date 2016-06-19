@@ -17,12 +17,12 @@ void loop()
   buttonState = digitalRead(buttonPin);
   if (buttonState)
   {
-    servo.write(0);              
+    servo.write(180);              
     delay(15);
   }
   else
   {
-    servo.write(180);              
+    servo.write(0);              
     delay(15);  
   }
 }
